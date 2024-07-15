@@ -136,7 +136,7 @@ const Navigation = () => {
         </div>
 
         {/* Cart Content */}
-        <div className={`${ cartIsOpen ? "translate-x-[40rem]" : "-translate-x-0"} transition-transform duration-300 ease-in-out absolute top-20 lg:right-6 w-[20rem] min-h-[15rem] bg-white rounded-lg shadow-2xl z-10`}>
+        <div className={`${ cartIsOpen ? "translate-x-[40rem]" : "-translate-x-[85%] lg:-translate-x-0"} transition-transform duration-300 ease-in-out absolute top-20 lg:right-6 w-[20rem] min-h-[15rem] bg-white rounded-lg shadow-2xl z-10`}>
               <h2 className="p-6 border-b-2">Cart</h2>
               
               {cartItems.length === 0 ? (
@@ -162,7 +162,7 @@ const Navigation = () => {
               ))}
               <button className="bg-orange text-white font-bold w-full py-3 rounded-lg">Checkout</button>
             </div>
-          )}
+          )} 
         </div>
 
         {/* User Avatar */}
